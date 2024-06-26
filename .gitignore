@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/sneat_ThemeDotNet/bin
+/sneat_ThemeDotNet/obj
+/sneat_ThemeDotNet/sneat_ThemeDotNet.csproj.user

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sneat_ThemeDotNet", "sneat_ThemeDotNet\sneat_ThemeDotNet.csproj", "{37289FC9-E503-4BBE-9E47-0CA9BE7A705D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37289FC9-E503-4BBE-9E47-0CA9BE7A705D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37289FC9-E503-4BBE-9E47-0CA9BE7A705D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37289FC9-E503-4BBE-9E47-0CA9BE7A705D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37289FC9-E503-4BBE-9E47-0CA9BE7A705D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39660778-F663-44CE-A5F6-A705923E10C1}
+	EndGlobalSection
+EndGlobal
