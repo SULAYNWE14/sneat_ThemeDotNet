@@ -149,17 +149,17 @@
                         </a>
                         <ul class="menu-sub">
                             <li class="menu-item">
-                                <a href="auth-login-basic.html" class="menu-link" target="_blank">
+                                <a asp-controller="Authentication" asp-action="Login" class="menu-link" target="_blank">
                                     <div data-i18n="Basic">Login</div>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="auth-register-basic.html" class="menu-link" target="_blank">
+                                <a asp-controller="Authentication" asp-action="Register" class="menu-link" target="_blank">
                                     <div data-i18n="Basic">Register</div>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="auth-forgot-password-basic.html" class="menu-link" target="_blank">
+                                <a asp-controller="Authentication" asp-action="ForgotPassword" class="menu-link" target="_blank">
                                     <div data-i18n="Basic">Forgot Password</div>
                                 </a>
                             </li>
@@ -169,7 +169,7 @@
                     <li class="menu-header small text-uppercase"><span class="menu-header-text">Components</span></li>
                     <!-- Cards -->
                     <li class="menu-item">
-                        <a href="cards-basic.html" class="menu-link">
+                        <a asp-controller="Card" asp-action="CardShow" class="menu-link">
                             <i class="menu-icon tf-icons bx bx-collection"></i>
                             <div data-i18n="Basic">Cards</div>
                         </a>
@@ -185,12 +185,12 @@
                         </a>
                         <ul class="menu-sub">
                             <li class="menu-item">
-                                <a href="forms-basic-inputs.html" class="menu-link">
+                                <a asp-controller="Form" asp-action="BasicInput"  class="menu-link">
                                     <div data-i18n="Basic Inputs">Basic Inputs</div>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="forms-input-groups.html" class="menu-link">
+                                <a asp-controller="Form" asp-action="InputGroup" class="menu-link">
                                     <div data-i18n="Input groups">Input groups</div>
                                 </a>
                             </li>
@@ -203,12 +203,12 @@
                         </a>
                         <ul class="menu-sub">
                             <li class="menu-item">
-                                <a href="form-layouts-vertical.html" class="menu-link">
+                                <a asp-controller="FormLayout" asp-action="VerticalForm" class="menu-link">
                                     <div data-i18n="Vertical Form">Vertical Form</div>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="form-layouts-horizontal.html" class="menu-link">
+                                <a asp-controller="FormLayout" asp-action="HorizontalForm" class="menu-link">
                                     <div data-i18n="Horizontal Form">Horizontal Form</div>
                                 </a>
                             </li>
@@ -216,7 +216,7 @@
                     </li>
                     <!-- Tables -->
                     <li class="menu-item">
-                        <a href="tables-basic.html" class="menu-link">
+                        <a asp-controller="Table" asp-action="TableShow" class="menu-link">
                             <i class="menu-icon tf-icons bx bx-table"></i>
                             <div data-i18n="Tables">Tables</div>
                         </a>
